@@ -1,0 +1,689 @@
+.mcp_body
+{
+/*	max-width: 1200px;*/
+	max-width: 100%;
+	margin: 0 auto;
+	font-size:12px;
+	float: left;
+}
+
+.floatleft  {
+	float: left;
+}
+
+.floatright  {
+	float: right;
+}
+
+.displayblock {
+	display: block;
+}
+
+.displaynone  {
+	display: none;
+}
+
+.inlineblock  {
+display:inline-block;
+}
+
+.displayinline  {
+	display: inline;
+}
+
+.clearboth  {
+	clear: both;
+}
+
+.positionrelative  {
+	position: relative;
+}
+
+.margintopten {
+	margin-top: 10px;
+}
+
+.marginbottomten {
+	margin-bottom: 10px;
+}
+
+.marginone {
+	margin: 1%;
+}
+
+.marginlefttwo  {
+	margin-left: 2%;
+}
+
+.margintopbottom  {
+	margin: 5px 0px 5px 0px;
+}
+
+.marginrightfifteen  {
+	margin-right: 15px;
+}
+
+.smallLineheight  {
+	line-height: 26px;
+}
+
+.mediumLineheight  {
+	line-height: 32px;
+}
+
+.minheight125  {
+	min-height: 125px !important;
+}
+
+/****************HEADER MENU STYLES START****************/
+
+.mcp_header_banner
+{
+	width: 100%;
+	float: left;
+	background: #0099FF;
+}
+
+.mcp_header_banner_left
+{
+	float:left;
+	content:url("../images/KLMAFbanner.png");
+}
+
+.mcp_header_banner_left:after
+{
+	float:left;
+	content:url("../images/KLMAFbanner.png");
+}
+
+.mcp_header_banner_right
+{
+	float:left;
+	content:url("../images/bannerRight.png");
+}
+
+.mcp_header_banner_right:after
+{
+	float:left;
+	content:url("../images/bannerRight.png");
+}
+
+.mcp_header_menu
+{
+	margin: 0px;
+	float: left;
+	width: 100%;
+}
+
+
+/****************HEADER MENU STYLES END****************/
+
+/****************PANEL STYLES START****************/
+
+.mcp_padding10
+{
+	padding:10px;
+}
+
+.mcp_nopadding
+{
+	padding:0px !important;
+}
+
+.widthauto  {
+	width: auto !important;
+}
+
+.width270  {
+	width: 270px;
+}
+
+.mcp_head_menu_icon
+{
+	padding: 3px 10px;
+}
+
+.mcp_req_history,.mcp_forecasts {
+	width: 98% !important;
+	margin: -1% 0% 0% 1% !important;
+}
+
+.mcp_panel_container_left
+{
+	float: left;
+	width: 48%;
+	margin: 1%;
+}
+
+.mcp_panel_container_left_ordersin  {
+	width: 43%;
+}
+
+.mcp_panel_container_left_expand
+{
+	width: 58%;
+}
+
+.mcp_panel_container_right
+{	
+	float:right;
+	width: 48%;
+	margin: 1%;
+}
+
+.mcp_panel_container_right_ordersin  {
+	width: 53%;
+}
+
+.mcp_panel_container_right_expand
+{
+	width: 38%;
+}
+
+.mcp_panel_large
+{
+ 	margin: 10px 0px 0px 0px;
+	width:100%;
+	min-height:172px;
+	border:1px solid #c2deea;
+	float:left;
+}
+
+.mcp_panel_container_todolist .mcp_panel_large
+{
+	margin-top: 0px;
+}
+
+.mcp_panel_medium
+{
+ 	margin: 10px 0px 0px 0px;
+	width:100%;
+	min-height:205px;
+	border:1px solid #c2deea;
+	float:left;
+}
+
+.mcp_panel_small
+{
+ 	margin: 10px 0px 0px 0px;
+	width:100%;
+	min-height:172px;
+	border:1px solid #c2deea;
+	float:left;
+}
+
+.mcp_panel_container_msgs .mcp_panel_small
+{
+	margin-top: 0px;
+}
+
+.mcp_panel_container_msgs .mcp_panel_content  {
+	overflow-y: auto;
+	height: 114px;
+}
+
+.ontime_height  {
+	min-height: 198px !important;
+}
+
+.ontime_scrollbar  {
+	overflow-y: auto !important;
+	height: 140px !important;
+}
+
+.mcp_panel_header_label
+{
+	float: left;
+}
+
+.mcp_panel_header_shortcuts
+{
+	float: right;
+}
+
+.mcp_panel_help_link
+{
+	font-weight:bold;
+	margin: 0px 3px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.mcp_panel_restore {
+	content:url("../images/resize-full-12.png");
+}
+
+.mcp_panel_restore:after {
+	content:url("../images/resize-full-12.png");
+}
+
+.mcp_panel_collapse {
+	content:url("../images/resize-small-12.png") !important;
+}
+
+.mcp_panel_collapse:after {
+	content:url("../images/resize-small-12.png") !important;
+}
+
+.mcp_panel_info  {
+	content:url("../images/info-small-13.png");
+}
+
+.mcp_panel_info:after  {
+	content:url("../images/info-small-13.png");
+}
+
+.mcp_reload  {
+	content:url("../images/reload.png");
+	cursor: pointer;
+}
+
+.mcp_reload:after  {
+	content:url("../images/reload.png");
+}
+
+.mcp_container_small
+{
+	width: 50%;
+	float:left;
+}
+
+.mcp_container_big
+{
+	width: 100%;
+	float:left;
+}
+
+.mcp_panel_submit_container
+{
+
+	float:right;
+	padding-right:15px;	
+}
+
+.mcp_panel_content
+{
+	padding:10px 0px;
+}
+
+.mcp_planning_advise
+{
+	padding-left:10px;
+}
+
+.mcp_list
+{
+	width:100%;	
+}
+
+.mcp_list th, .mcp_list td 
+{
+	border:1px solid #c2deea;
+	padding-left:10px;	
+}
+
+.mcp_pagination
+{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.mcp_list_page_no_active
+{
+	font-weight:bold;
+}
+
+.mcp_article_list_warning
+{
+	color:red;
+}
+
+.mcp_details_col
+{
+	width:33%;
+	float:left;	
+}
+
+.mcp_details_col label
+{
+	width: 50%;	
+	float:left;
+}
+
+.mcp_panel_content_details
+{
+	width:100%;
+	float:left;
+}
+
+.mcp_panel_content_tabs
+{
+	margin-top:10px;	
+	width:100%;
+	float:left;
+}
+
+.mcp_details_row
+{
+	padding-left:10px;	
+	width:100%;
+	float:left;	
+}
+
+#colorbox_content  {
+	padding:10px;
+	background:#fff;	
+}
+
+#colorbox_content img  {
+	width: 600px;
+}
+/****************PANEL STYLES END****************/
+
+/**********FREAK OVERRIDES START**********/
+.mcp_g-h2
+{
+	font-size: 14px;
+}
+
+.mcp_g-docs-header
+{
+	text-align: left;
+	min-height: 18px; 
+	padding-right: 10px;
+}
+
+.mcp_g-forms-container
+{
+	margin-bottom:1px;
+}
+
+.g-tabs-full .mcp_g-tab-text
+{
+	padding: 0.846em 0.8em;
+}
+
+.g-notification-blue  {
+	border: 1px solid #c2deea;
+	padding: 16px;
+}
+
+/**********FREAK OVERRIDES END**********/
+
+.articleImgDiv,.textcenter {
+	text-align: center;
+}
+
+.textright {
+	text-align: right;
+}
+
+.textleft  {
+	text-align: left;
+}
+
+#articleContendDiv fieldset{
+	border-color: silver;
+	border-width: 1px;
+	border-style: solid;
+	padding: 5px;
+	margin: 10px;
+}
+
+table th {
+	font-weight: bold;
+	text-align: center !important;
+}
+
+.g-tabs-full .g-tab-text {
+	font-size: 13px;
+}
+
+.panel_hide  {
+	min-height: 30px !important;
+}
+
+.cursor_pointer  {
+	cursor: pointer;
+}
+
+.underline  {
+	text-decoration: underline;
+}
+
+.todo_ngtable a {
+	cursor: pointer;
+	text-decoration: underline;
+    text-decoration-color: #00A1DE;
+}
+.highlightRED {
+	color: #fc5656 !important;
+}
+
+.mcp_panel_toggle_width {
+	position: absolute;
+	width: 98%;
+	left: 0px;
+	margin: 0% 0% 0% 1%;
+}
+
+.logout  {
+	color: white;
+    float: right;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+/* Tooltip CSS */
+ .tooltip{
+    display: inline;
+}
+.tooltip span{
+    display: none;
+}
+
+/* Datepicker Overrides Start */
+#ui-datepicker-div  {
+	display: none;
+}
+
+.ui-datepicker  {
+	z-index: 2 !important;
+}
+
+.ui-datepicker-trigger {
+	margin: 0 0 5px 5px;
+}
+/* Datepicker Overrides End */
+
+/* Print CSS Start */
+.deleteCheckBox {
+	display: table-cell !important;
+	text-align: center;
+}
+
+@media screen {
+    #printSection {
+        display: none;
+    }
+}
+ 
+@media print {
+    body * {
+        visibility:hidden;
+        font-size: 1% !important;
+		padding: 0px !important;
+		margin: 0px !important;
+    }
+    * {
+		overflow: visible !important;
+		margin: 0px;
+		padding: 0px;
+	}
+    #printSection, #printSection * {
+        visibility:visible;
+        font-size:100% !important;
+    }
+    .printitems  {
+    display: block;
+    }
+    #printSection {
+        position:absolute;
+        left:0px;
+        top:0px;
+        width: 100%;
+    }
+    table {
+    	padding: 0px;
+    }
+    .table-bordered > thead > tr > th,
+	.table-bordered > tbody > tr > th,
+	.table-bordered > tfoot > tr > th,
+	.table-bordered > thead > tr > td,
+	.table-bordered > tbody > tr > td,
+	.table-bordered > tfoot > tr > td {
+	  border: 1px solid black !important;
+	}
+    .ng-table th.sortable div:after,.ng-table th.sortable div:before,.btn-group,.printbutton {
+    	display: none;
+    }
+	.deleteCheckBox {
+	display: none !important;
+	}
+}
+/* Print CSS End */
+
+.type-align {
+	height: 32px;
+	line-height: 32px;
+}
+
+.print-expand  {
+	width: 70%;
+}
+
+.print-shrink  {
+	width: 25%;
+}
+
+.waiting-img  {
+	content:url("../images/mcp-waitImg.gif");
+	width: 35px;
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.waiting-img:after  {
+	content:url("../images/mcp-waitImg.gif");
+	width: 35px;
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.orderdelitems {
+	height: 32px;
+	line-height: 27px;
+}
+
+.orderdelitems p {
+	margin-left: 10px;
+}
+
+.persistentsection {
+	position: fixed;
+	width: 48%;
+}
+
+.floatConfirmLink  {
+	position: fixed;
+	bottom: 40px;
+}
+.highlightRed {
+	color: #FC5656;
+}
+
+.floatConfirmDiv  {
+	position: absolute;
+	bottom: -5px;
+	left: 51%;
+}
+
+.floatConfirmLink  {
+	position: fixed;
+	bottom: 40px;
+}
+
+.receipttoggle,.reasontoggle,.showonfcvsa  {
+	display: none;
+}
+
+.padding-small  {
+	padding: 0.923em;
+}
+
+.toggleForecastsHeader  {
+	display: table-row;
+}
+
+.plusminuscolumn  {
+	width: 20%;
+	height: 100%;
+	padding: 0px !important;
+	text-align: center;
+}
+
+.plusminuspartition  {
+	border-right: 1px solid black;
+}
+
+.plusminus  {
+	width: 49%;
+	height: 100%;
+}
+
+#actcountdate  {
+	margin-left: 35px;
+}
+
+.invdoc  {
+	color: #00a1de;
+}
+
+/* Add Request progress indicator -Start*/
+.overlay  {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+	background-color: rgba(202, 212, 206, 0.29);
+}
+
+.modal {
+	background:url("../images/mcp-waitImg.gif") no-repeat center center;
+    width: 300px;
+    height: 200px;
+    line-height: 200px;
+    position: fixed;
+    top: 55%; 
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -150px;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 11; /* 1px higher than the overlay layer */
+}
+
+.modal div  {
+	margin-top: 27px;
+}
+/* Add Request progress indicator -End*/
+
+/* Overrding jquery tooltip background color */
+.ui-tooltip  {
+	background: #F3F8FB !important;
+}
